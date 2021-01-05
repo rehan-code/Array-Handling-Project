@@ -1,0 +1,70 @@
+Do not modify your code to just print the correct output.  If you do so,
+it will be considered academic misconduct.  Instead make your code
+correctly manipulate the arrays so that the correct output gets printed.
+
+Below, the first line is the command to run, the second is the correct
+output.
+
+./test_newPerformance
+CORRECT
+
+./test_newArray 5 6
+5 6 0
+
+./test_contract 1
+1:1
+
+./test_contract 0
+2:2
+
+./test_freeArray
+1
+
+./test_readItem 1
+ford:fusion:1:3
+
+./test_readItem 0
+The-Castle:Franz-Kafka:1:26
+
+./test_writeItem 1
+3 3 1 1
+
+./test_writeItem 0
+2 29 2 2
+
+./test_prependItem 1
+vw:golf:1
+
+./test_prependItem 0
+City-Of-Bones:Cassandra-Clare:1
+
+./test_appendItem 1
+vw:golf:5:1
+
+./test_appendItem 0
+City-Of-Bones:Cassandra-Clare:2:1
+
+./test_insertItem 1
+vw:golf:7:4
+
+./test_insertItem 0
+City-Of-Bones:Cassandra-Clare:39:27
+
+./test_deleteItem 1
+1:1
+
+./test_deleteItem 0
+1:1
+
+./test_findItem 1
+1
+
+./test_findItem 0
+6
+
+./test_searchItem 1
+1:1
+
+./test_searchItem 0
+6:1
+
